@@ -11,5 +11,7 @@ export class BasicosComponent {
   nombreLower: string = 'inma';
   nombreUpper: string = 'INMA';
   nombreCompleto: string = 'iNma GijÓn';
-  
+
+  fecha: Date = new Date(); //El día de hoy
+
 }
