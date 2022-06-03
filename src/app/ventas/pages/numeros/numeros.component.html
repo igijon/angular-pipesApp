@@ -13,4 +13,16 @@
       {{ (ventasNetas + 10000) | number:'1.2-2' }}
     </p-card>
   </div>
+  <div class="col-4">
+    <p-card header="Ventas brutas"
+            subheader="del año actual">
+      {{ (ventasNetas + 20000) | currency :'EUR':'symbol-narrow':'1.0-4' }}
+    </p-card>
+  </div>
+  <div class="col-4">
+    <p-card header="Ganancia porcentual"
+            subheader="del año actual">
+      {{ porcentaje | percent:'1.2-2' }}
+    </p-card>
+  </div>
 </div>
