@@ -21,7 +21,8 @@ export class NoComunesComponent  {
   clientes: string[] = [
     'María',
     'Enrique',
-    'Luis'
+    'Luis',
+    'Eduardo'
   ];
 
   clientesMapa = {
