@@ -39,4 +39,11 @@ export class NoComunesComponent  {
   borrarCliente() {
     this.clientes.shift();
   }
+
+  //KeyValue Pipe
+  persona = {
+    nombre: 'Inma',
+    edad: 35,
+    dirección: 'Miguelturra, España'
+  }
 }
